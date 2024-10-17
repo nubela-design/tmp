@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Settings | Task Management Platform</title>
+
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Webestica.com">
+	<meta name="description" content="Bootstrap 5 based Social Media Network and Community Theme">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/OverlayScrollbars-master/css/OverlayScrollbars.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/tiny-slider/dist/tiny-slider.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/choices.js/public/assets/styles/choices.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/glightbox-master/dist/css/glightbox.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/dropzone/dist/dropzone.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/flatpickr/dist/flatpickr.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/plyr/plyr.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/zuck.js/dist/zuck.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/neuicons@1.9.0/css/neu.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Theme CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+	<!-- ======================= HEADER ======================= -->
+	<header class="navbar-light fixed-top header-static bg-mode">
+
+		<!-- Logo Nav START -->
+		<nav class="navbar navbar-expand-lg">
+			<div class="container-fluid">
+
+				<!-- Logo START -->
+				<a class="navbar-brand" href="index.html">
+					<img class="light-mode-item navbar-brand-item" src="assets/images/Logogram TMP.png" alt="logo">
+					<img class="dark-mode-item navbar-brand-item" src="assets/images/Logogram TMP.png" alt="logo">
+				</a>
+
+				<!-- Responsive navbar toggler -->
+				<button class="navbar-toggler ms-auto icon-md btn btn-light p-0" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-animation">
+						<span></span>
+						<span></span>
+						<span></span>
+					</span>
+				</button>
+
+				<!-- Main navbar START -->
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+
+					<!-- Nav Search START -->
+					<div class="nav mt-3 mt-lg-0 flex-nowrap align-items-center px-4 px-lg-0">
+						<div class="nav-item w-100">
+
+							<a type="button" href="index-muted.html" class="py-2 px-2 bg-primary bg-opacity-10 rounded">
+								Sound active | <i class="neu-volume-max"></i>
+							</a>
+
+						</div>
+					</div>
+
+					<ul class="navbar-nav navbar-nav-scroll ms-auto">
+
+						<li class="nav-item">
+							<a class="nav-link" href="#">Wiki</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#">Trello</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#">Timeoff</a>
+						</li>
+
+					</ul>
+				</div>
+
+				<!-- Nav right START -->
+				<ul class="nav flex-nowrap align-items-center ms-sm-3 list-unstyled">
+
+					<li class="nav-item ms-2">
+						<a class="nav-link icon-md btn btn-light p-0" href="settings.html">
+							<svg id="a" width="16" height="24" viewBox="0 0 24 24">
+								<path
+									d="m4.5038,12.9185l-1.6378.9456c-.4783.2761-.6422.8877-.366,1.366l1.9527,3.3821c.2761.4783.8878.6422,1.366.366l1.6603-.9586c.3104-.1792.6866-.1575.9967.0221.0034.002.0068.004.0102.0059.3092.1783.5141.4932.5141.8501v2.1022c0,.5522.4477,1,1,1h4c.5523,0,1-.4478,1-1v-2.1022c0-.3569.2049-.6718.5141-.8501.0034-.002.0068-.004.0102-.0059.3101-.1796.6863-.2013.9967-.0221l1.6603.9586c.4783.2761,1.0899.1122,1.366-.366l1.9527-3.3821c.2761-.4783.1122-1.0899-.366-1.366l-1.6203-.9355c-.329-.1899-.5316-.541-.5314-.9209v-.0154c-.0001-.3799.2025-.731.5314-.921l1.6203-.9354c.4783-.2762.6422-.8878.366-1.366l-1.9527-3.3821c-.2761-.4783-.8878-.6422-1.366-.366l-1.6603.9586c-.3104.1792-.6866.1575-.9967-.0221-.0034-.002-.0068-.004-.0102-.0059-.3092-.1783-.5141-.4932-.5141-.8501v-2.1022c0-.5523-.4477-1-1-1h-4c-.5523,0-1,.4477-1,1v2.1022c0,.3569-.2049.6718-.5141.8501-.0034.002-.0068.004-.0102.0059-.3101.1796-.6863.2013-.9967.0221l-1.6603-.9586c-.4783-.2762-1.0899-.1123-1.366.366l-1.9527,3.3821c-.2761.4783-.1122,1.0898.366,1.366l1.6378.9456c.3237.1869.4976.5386.4972.9123v.0124c.0004.3738-.1735.7255-.4972.9123Zm7.4962-3.9185c1.6569,0,3,1.3431,3,3s-1.3431,3-3,3-3-1.3431-3-3,1.3431-3,3-3Z"
+									fill="#676a79" />
+							</svg>
+						</a>
+					</li>
+
+				</ul>
+
+			</div>
+		</nav>
+		<!-- Logo Nav END -->
+	</header>
+
+	<!-- **************** MAIN CONTENT START **************** -->
+	<main>
+
+		<!-- Container START -->
+		<div class="container-fluid">
+
+			<div class="row g-4">
+
+				<!-- Sidenav START -->
+				<div class="col-lg-3">
+
+					<!-- Advanced filter responsive toggler START -->
+					<div class="d-flex align-items-center d-lg-none">
+						<button class="border-0 bg-transparent" type="button" data-bs-toggle="offcanvas"
+							data-bs-target="#offcanvasSideNavbar" aria-controls="offcanvasSideNavbar">
+							<span class="btn btn-primary"><i class="fa-solid fa-sliders-h"></i></span>
+							<span class="h6 mb-0 fw-bold d-lg-none ms-2">My profile</span>
+						</button>
+					</div>
+
+					<!-- Navbar START-->
+					<nav class="navbar navbar-expand-lg mx-0">
+
+						<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasSideNavbar">
+
+							<!-- Offcanvas header -->
+							<div class="offcanvas-header">
+								<button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas"
+									aria-label="Close"></button>
+							</div>
+
+							<!-- Offcanvas body -->
+							<div class="offcanvas-body d-block px-2 px-lg-0">
+
+								<!-- Card START -->
+								<div class="card">
+
+									<!-- Card body START -->
+									<div class="card-body pt-5">
+										<div class="text-center">
+											<!-- Avatar -->
+											<div class="avatar avatar-lg mt-n5 mb-3">
+												<img class="avatar-img rounded border border-white border-3"
+													alt="Profile picture" src="assets/images/avatar/placeholder.png">
+											</div>
+
+											<!-- Info -->
+											<h5 class="mb-0">
+												Patricia Doe
+											</h5>
+
+											<small>
+												Software Engineer
+											</small>
+
+											<!-- User stat START -->
+											<div class="hstack gap-2 gap-xl-3 justify-content-center mt-3">
+
+												<!-- User stat item -->
+												<div>
+													<h6 class="mb-0">24</h6>
+													<small>Todo</small>
+												</div>
+												<!-- Divider -->
+												<div class="vr"></div>
+												<!-- User stat item -->
+												<div>
+													<h6 class="mb-0">16</h6>
+													<small>Dangling post</small>
+												</div>
+												<!-- Divider -->
+												<div class="vr"></div>
+												<!-- User stat item -->
+												<div>
+													<h6 class="mb-0">8</h6>
+													<small>Issues</small>
+												</div>
+											</div>
+											<!-- User stat END -->
+										</div>
+
+										<!-- Divider -->
+										<hr>
+
+										<!-- Side Nav START -->
+										<ul class="nav nav-link-secondary flex-column fw-bold gap-2">
+
+											<li class="nav-item">
+												<a class="nav-link fw-normal" href="index.html">
+													<svg class="mb-1" width="24" height="24" viewBox="0 0 24 24"><path d="m6,21.5h12c1.3784,0,2.5-1.1216,2.5-2.5v-8.5c0-1.4087-.6729-2.7544-1.7998-3.6001h-.0005l-5.1997-3.8999c-.8828-.6621-2.1172-.6621-3,0l-5.2002,3.8999c-1.127.8457-1.7998,2.1914-1.7998,3.6001v8.5c0,1.3784,1.1216,2.5,2.5,2.5Zm8.2002-1h-4.4004v-4c0-1.2134.9868-2.2002,2.2002-2.2002s2.2002.9868,2.2002,2.2002v4ZM4.5,10.5c0-1.0957.5234-2.1426,1.3999-2.8003l5.1997-3.8999c.2651-.1982.583-.2979.9004-.2979.3179,0,.6353.0996.9004.2979l5.1997,3.8999c.8765.6582,1.3999,1.7046,1.3999,2.8003v8.5c0,.8271-.6729,1.5-1.5,1.5h-2.7998v-4c0-1.7646-1.4355-3.2002-3.2002-3.2002s-3.2002,1.4355-3.2002,3.2002v4h-2.7998c-.8271,0-1.5-.6729-1.5-1.5v-8.5Z"/></svg>
+													<span class="ms-2">Activity</span>
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a class="nav-link fw-normal" href="manager-report.html">
+													<svg class="mb-1" width="24" height="24" viewBox="0 0 24 24"><path d="m11,2.5c-.2764,0-.5.2236-.5.5v10c0,.2764.2236.5.5.5h10c.2764,0,.5-.2236.5-.5,0-5.79-4.71-10.5-10.5-10.5Zm.5,10V3.5127c4.8408.2529,8.7344,4.1465,8.9873,8.9873h-8.9873Zm-9,.5c0-3.9966,2.7769-7.3492,6.5-8.2524v1.0314c-3.1663.8783-5.5,3.7787-5.5,7.221,0,4.1357,3.3643,7.5,7.5,7.5,3.4423,0,6.3427-2.3337,7.221-5.5h1.0314c-.9032,3.7231-4.2558,6.5-8.2524,6.5-4.6865,0-8.5-3.8135-8.5-8.5Z"/></svg>
+													<span class="ms-2">Manager's report</span>
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a class="nav-link fw-normal" href="user-directory.html">
+													<svg class="mb-1" width="24" height="24" viewBox="0 0 24 24"><path d="m9,1.5c-3.0327,0-5.5,2.4673-5.5,5.5s2.4673,5.5,5.5,5.5,5.5-2.4673,5.5-5.5S12.0327,1.5,9,1.5Zm0,10c-2.4814,0-4.5-2.0186-4.5-4.5s2.0186-4.5,4.5-4.5,4.5,2.0186,4.5,4.5-2.0186,4.5-4.5,4.5Zm-6,11h12c.8271,0,1.5-.6729,1.5-1.5v-1c0-2.4814-2.0186-4.5-4.5-4.5h-6c-2.4814,0-4.5,2.0186-4.5,4.5v1c0,.8271.6729,1.5,1.5,1.5Zm-.5-2.5c0-1.9297,1.5703-3.5,3.5-3.5h6c1.9297,0,3.5,1.5703,3.5,3.5v1c0,.2759-.2241.5-.5.5H3c-.2759,0-.5-.2241-.5-.5v-1Zm12.5-7.5c-.4934,0-.9749-.071-1.4424-.1981.3064-.2638.593-.5499.8499-.8623.1965.0259.3913.0604.5925.0604,2.4814,0,4.5-2.0186,4.5-4.5s-2.0186-4.5-4.5-4.5c-.2012,0-.3961.0345-.5925.0604-.2569-.3124-.5435-.5985-.8499-.8623.4675-.1271.949-.1981,1.4424-.1981,3.0327,0,5.5,2.4673,5.5,5.5s-2.4673,5.5-5.5,5.5Zm6.5,8.5v-1c0-1.9297-1.5703-3.5-3.5-3.5h-1.1365c-.2646-.3668-.5692-.7018-.908-1h2.0445c2.4814,0,4.5,2.0186,4.5,4.5v1c0,.8271-.6729,1.5-1.5,1.5h-3.4172c.1777-.3049.3057-.6395.3667-1h3.0505c.2759,0,.5-.2241.5-.5Z"/></svg>
+													<span class="ms-2">User directory</span>
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a class="nav-link" href="settings.html">
+													<svg class="mb-1" width="24" height="24" viewBox="0 0 24 24"><path d="m21.1,13.9l-1.6-.9c-.3-.3-.5-.6-.5-1h0c0-.4.2-.7.5-.9l1.6-.9c.5-.3.6-.9.4-1.4l-2-3.4c-.3-.5-.9-.6-1.4-.4l-1.7,1c-.3.2-.7.2-1,0h0c-.2-.2-.4-.5-.4-.9v-2.1c0-.6-.4-1-1-1h-4c-.6,0-1,.4-1,1v2.1c0,.4-.2.7-.5.9h0c-.3.2-.7.2-1,0l-1.7-1c-.5-.3-1.1-.1-1.3.4l-2,3.4c-.3.5-.1,1.1.4,1.4l1.6.9c.3.2.5.5.5.9h0c0,.4-.2.7-.5.9l-1.6.9c-.5.3-.6.9-.4,1.4l2,3.4c.3.5.9.6,1.4.4l1.7-1c.3-.2.7-.2,1,0h0c.2.2.4.5.4.9v2.1c0,.6.4,1,1,1h4c.6,0,1-.4,1-1v-2.1c0-.4.2-.7.5-.9h0c.3-.2.7-.2,1,0l1.7,1c.5.3,1.1.1,1.4-.4l2-3.4c.2-.4,0-1.1-.5-1.3h0Zm-9.1,1.1c-1.7,0-3-1.3-3-3s1.3-3,3-3,3,1.3,3,3-1.3,3-3,3Z" fill="#60a5fa"/><path d="m2.6,13.4c-.3.2-.6.6-.7.9-.1.4-.1.8.1,1.1l2,3.4c.4.7,1.3,1,2,.5l1.7-1c.1-.1.3-.1.5,0s.3.3.3.4v2.3c0,.8.7,1.5,1.5,1.5h4c.8,0,1.5-.7,1.5-1.5v-2.1c0-.2.1-.3.3-.4s.4-.1.5,0l1.7,1c.7.4,1.6.2,2-.5l2-3.4c.2-.3.3-.8.2-1.1-.1-.4-.4-.7-.7-.9l-1.6-.9c-.2-.1-.3-.3-.3-.5s.1-.4.3-.5l1.6-.9c.3-.2.6-.5.7-.9s.1-.8-.1-1.1l-2-3.4c-.4-.7-1.3-1-2-.5l-1.7,1c-.1.1-.3.1-.5,0-.2-.1-.3-.3-.3-.4v-2.5c0-.8-.7-1.5-1.5-1.5h-4c-.9,0-1.6.7-1.6,1.5v2.1c0,.2-.1.3-.3.4s-.4.1-.5,0l-1.7-1c-.6-.3-1.6-.1-2,.6l-2,3.4c-.1.4-.2.8-.1,1.2.1.3.4.7.7.9l1.6.9c.2.1.2.3.2.5s-.1.4-.2.5l-1.6.9h0Zm2.2-2.8l-1.7-.9c-.1-.1-.2-.2-.2-.3s0-.3.1-.4l2-3.4c0-.2.3-.3.6-.1l1.7,1c.5.3,1,.3,1.5,0s.8-.8.8-1.3v-2.2c0-.3.2-.5.5-.5h4c.3,0,.5.2.5.5v2.1c0,.5.3,1,.8,1.3.5.3,1,.3,1.5,0l1.7-1c.2-.1.5-.1.7.2l2,3.4c.1.1.1.2,0,.4,0,.1-.1.2-.2.3l-1.6.9c-.5.3-.8.8-.8,1.4s.3,1.1.8,1.4l1.6.9h0c.1.1.2.2.2.3s0,.3-.1.4l-2,3.4c-.1.2-.4.3-.7.2l-1.7-1c-.5-.3-1-.3-1.5,0s-.8.8-.8,1.3v2.1c0,.3-.2.5-.5.5h-4c-.3,0-.5-.2-.5-.5v-2.1c0-.5-.3-1-.8-1.3-.2-.1-.5-.2-.8-.2-.2,0-.5.1-.7.2l-1.7,1c-.2.1-.5.1-.7-.2l-2-3.4c-.1-.1-.1-.2,0-.4,0-.1.1-.2.2-.3l1.6-.9c.5-.3.7-.8.7-1.4.2-.6-.1-1.1-.5-1.4h0Zm7.2,4.9c1.9,0,3.5-1.6,3.5-3.5s-1.6-3.5-3.5-3.5-3.5,1.6-3.5,3.5,1.6,3.5,3.5,3.5Zm0-6c1.4,0,2.5,1.1,2.5,2.5s-1.1,2.5-2.5,2.5-2.5-1.1-2.5-2.5,1.1-2.5,2.5-2.5Z" fill="#1d4ed8"/></svg>
+													<span class="ms-2">Settings</span>
+												</a>
+											</li>
+
+										</ul>
+
+									</div>
+
+								</div>
+
+								<!-- Copyright -->
+								<p class="small text-center mt-3">
+									Task Management Platform (TMP)<br>
+									©2023
+									<a class="text-body" target="_blank" href="https://www.nubela.co/">
+										Nubela
+									</a>
+								</p>
+
+							</div>
+						</div>
+
+					</nav>
+
+				</div>
+
+				<!-- Main content START -->
+				<div class="col-md-8 col-lg-7 gap-4">
+
+					<div class="card rounded-3 mb-4">
+
+						<div class="card-body">
+					
+							<h6 class="h4 mb-3 mb-0">
+								Be notified when
+							</h6>
+
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="whenStatus" checked>
+								<label class="form-check-label" for="whenStatus">
+									When a task that you are tagged changes status (moved to <code class="py-1 px-2 bg-danger bg-opacity-10 rounded">TODO</code>/<code class="py-1 px-2 bg-danger bg-opacity-10 rounded">DOING</code>/<code class="py-1 px-2 bg-danger bg-opacity-10 rounded">DONE</code>)
+								</label>
+							</div>
+
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="whenMention">
+								<label class="form-check-label" for="whenMention">
+									When someone mentions you explicitly in the comments, in any card
+								</label>
+							</div>
+
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="whenTagged">
+								<label class="form-check-label" for="whenTagged">
+									When a task that you are tagged in is moved to <code class="py-1 px-2 bg-danger bg-opacity-10 rounded">PENDING</code>
+								</label>
+							</div>
+
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="whenArchived">
+								<label class="form-check-label" for="whenArchived">
+									When a task that you are tagged in is archived
+								</label>
+							</div>
+
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="whenComment">
+								<label class="form-check-label" for="whenComment">
+									When there is a comment made by anyone, posted in a task that you are tagged in
+								</label>
+							</div>
+					
+						</div>
+
+					</div>
+
+					<div class="card rounded-3 mb-4">
+
+						<div class="card-body">
+					
+							<h6 class="h4">
+								Label manager
+							</h6>
+
+							<p class="mb-3">
+								Get notified for a specific label
+							</p>
+
+							<div class="input-group mb-4">
+								<input type="text" class="form-control" placeholder="Input label" aria-label="Input label" aria-describedby="inputLabel">
+								<button class="btn btn-primary-soft" type="button" id="inputLabel">Add label</button>
+							</div>							  
+
+							<a href="#" class="badge bg-secondary bg-opacity-10 text-secondary">
+								awaiting-review
+								<svg width="16" height="auto" viewBox="0 0 24 24"><path d="m17.707,7.707l-4.293,4.293,4.293,4.293c.3906.3906.3906,1.0234,0,1.4141-.1953.1953-.4512.293-.707.293s-.5117-.0977-.707-.293l-4.293-4.293-4.293,4.293c-.1953.1953-.4512.293-.707.293s-.5117-.0977-.707-.293c-.3906-.3906-.3906-1.0234,0-1.4141l4.293-4.293-4.293-4.293c-.3906-.3906-.3906-1.0234,0-1.4141s1.0234-.3906,1.4141,0l4.293,4.293,4.293-4.293c.3906-.3906,1.0234-.3906,1.4141,0s.3906,1.0234,0,1.4141Z"/></svg>
+							</a>
+
+							<a href="#" class="badge bg-secondary bg-opacity-10 text-secondary">
+								nubela-dev
+								<svg width="16" height="auto" viewBox="0 0 24 24"><path d="m17.707,7.707l-4.293,4.293,4.293,4.293c.3906.3906.3906,1.0234,0,1.4141-.1953.1953-.4512.293-.707.293s-.5117-.0977-.707-.293l-4.293-4.293-4.293,4.293c-.1953.1953-.4512.293-.707.293s-.5117-.0977-.707-.293c-.3906-.3906-.3906-1.0234,0-1.4141l4.293-4.293-4.293-4.293c-.3906-.3906-.3906-1.0234,0-1.4141s1.0234-.3906,1.4141,0l4.293,4.293,4.293-4.293c.3906-.3906,1.0234-.3906,1.4141,0s.3906,1.0234,0,1.4141Z"/></svg>
+							</a>
+
+							<a href="#" class="badge bg-secondary bg-opacity-10 text-secondary">
+								bugs
+								<svg width="16" height="auto" viewBox="0 0 24 24"><path d="m17.707,7.707l-4.293,4.293,4.293,4.293c.3906.3906.3906,1.0234,0,1.4141-.1953.1953-.4512.293-.707.293s-.5117-.0977-.707-.293l-4.293-4.293-4.293,4.293c-.1953.1953-.4512.293-.707.293s-.5117-.0977-.707-.293c-.3906-.3906-.3906-1.0234,0-1.4141l4.293-4.293-4.293-4.293c-.3906-.3906-.3906-1.0234,0-1.4141s1.0234-.3906,1.4141,0l4.293,4.293,4.293-4.293c.3906-.3906,1.0234-.3906,1.4141,0s.3906,1.0234,0,1.4141Z"/></svg>
+							</a>
+
+						</div>
+
+					</div>
+
+					<div class="card rounded-3">
+
+						<div class="card-body">
+					
+							<h6 class="h4 mb-3 mb-0">
+								How should we send you notifications?
+							</h6>
+
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="notifDesktop" checked>
+								<label class="form-check-label" for="notifDesktop">
+									Desktop notification (via your browser)
+								</label>
+							</div>
+
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="notifSound">
+								<label class="form-check-label" for="notifSound">
+									Making a ping sound
+								</label>
+							</div>
+
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="notifSlack">
+								<label class="form-check-label" for="notifSlack">
+									Slackbot
+								</label>
+							</div>
+					
+						</div>
+
+					</div>					
+
+					<button class="btn btn-primary mt-3">
+						Save changes
+					</button>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</main>
+
+</body>
+
+<!-- Bootstrap JS -->
+<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Vendors -->
+<script src="assets/vendor/tiny-slider/dist/tiny-slider.js"></script>
+<script src="assets/vendor/OverlayScrollbars-master/js/OverlayScrollbars.min.js"></script>
+<script src="assets/vendor/choices.js/public/assets/scripts/choices.min.js"></script>
+<script src="assets/vendor/glightbox-master/dist/js/glightbox.min.js"></script>
+<script src="assets/vendor/flatpickr/dist/flatpickr.min.js"></script>
+<script src="assets/vendor/plyr/plyr.js"></script>
+<script src="assets/vendor/dropzone/dist/min/dropzone.min.js"></script>
+<script src="assets/vendor/zuck.js/dist/zuck.min.js"></script>
+<script src="assets/js/zuck-stories.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<!-- Theme Functions -->
+<script src="assets/js/functions.js"></script>
+
+
+</body>
+
+</html>
